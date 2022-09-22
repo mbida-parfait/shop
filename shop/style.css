@@ -1,0 +1,83 @@
+body{
+    background-color:rgba(0, 0, 0, 0.808);
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+h1{
+    text-transform: uppercase;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-transform: uppercase;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+}
+header{
+    background-image: url(images/image-bike-repair-service-b.jpg);
+    height: 70vh;
+    background-position: center;
+}
+.text{
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 1024px;
+}
+.gallery{
+    margin:10px;
+    float:left
+}
+.image-resize{
+    height: 200px;
+    width:312px;
+    object-fit: cover;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.articles{
+       padding-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 1024px;
+}
+.logo{
+    position:absolute;
+}
+.logo img{
+    height: 40px;
+}
+.navigation{
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18x;
+    float: right;
+    padding-left: 50px;
+}
+.navigation a:link,
+.navigation a:visited{
+    background-color: rgba(255, 255, 0, 0.753);
+    border-radius: 100px;
+    padding:4px;
+    margin-left: 15px;
+}
+.navigation a:hover{
+    background-color: black;
+}
+
+
+
